@@ -37,6 +37,10 @@ body {
 }
 
 .new_burger {
+  background-color: rgb(255, 208, 0);
+  border: solid;
+  border-color: black;
+  padding-top: 3%;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: left;
