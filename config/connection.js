@@ -1,5 +1,5 @@
 var mysql = require("mysql");
-var pass = require("../security/password.js");
+// var pass = require("../security/password.js");
 
 if (process.env.JAWSDB_URL){
   connection = mysql.createConnection(process.env.JAWSDB_URL);
@@ -8,7 +8,7 @@ else {
   connection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: pass,
+    password: "",
     database: "burgers_db"
   });
 }
