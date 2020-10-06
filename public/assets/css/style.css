@@ -1,25 +1,40 @@
 body {
   width: 99%;
-  height: 900px;
-  background-color: #fc6;
+  height: 90vh;
+  /* background-color: rgb(102, 219, 255); */
+  background-image: url("../images/delicious-messy-homemade-bacon-cheeseburger-600w-349203104.webp");
 }
 
 #top-bar {
-  margin-top: 28px;
+  margin-top: 25px;
+  background-color: black;
+  width: 99%;
+  padding: 2%;
+  margin-bottom: 25px
 }
 
-.spacing-reset {
+.task {
+  padding: 2%;
+  background-color: rgb(255, 208, 0);
+  border: solid;
+  border-color: black;
+}
+
+#bname {
+  padding-top: 10%;
+}
+/* .spacing-reset {
   padding: 0;
   margin: 0;
   border: 0;
-}
+} */
 
-.list-reset {
+/* .list-reset {
   padding: 0;
   margin: 0;
   list-style-type: none;
   border: 0;
-}
+} */
 
 @media (min-width: 1200px) {
   .container {
@@ -33,19 +48,19 @@ body {
   }
 }
 
-.enter_section {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
+.new_burger {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
 }
 
-#enter_text {
-  width: 400px;
-  height: 80px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.entry {
+  width: 350px;
+  height: 35px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   margin: auto;
-  font-size: 38px;
+  font-size: 24px;
 }
 
 .task {
@@ -64,5 +79,5 @@ body {
 }
 
 h1 {
-  color: #f30;
+  color: rgb(255, 208, 0);
 }
